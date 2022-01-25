@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import StateTutorial from './hookComponents/StateTutorial';
+import ReducerTutorial from './hookComponents/ReducerTutorial';
+import EffectTutorial from './hookComponents/EffectTutorial';
+import RefTutorial from './hookComponents/RefTutorial';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <StateTutorial />
+      <ReducerTutorial />
+      <EffectTutorial />
+      <RefTutorial />
     </div>
   );
 }
